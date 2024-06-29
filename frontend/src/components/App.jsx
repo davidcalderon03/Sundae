@@ -1,20 +1,14 @@
 import '../css/App.css';
+import Task from '../components/Task';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p><b>Welcome to you To-Do List!</b></p>
+        <Task text={"Task 1"}></Task>
+        <Task text={"Task 2"}></Task>
+        <Task text={"Task 3"}></Task>
       </header>
     </div>
   );

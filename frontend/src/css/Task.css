@@ -1,0 +1,18 @@
+.Task {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .todo-item input {
+    margin-right: 10px;
+  }
+  
+  .todo-item label {
+    flex-grow: 1; /* Allow label to grow and fill space */
+  }
+  
+  .todo-item input:checked + label {
+    text-decoration: line-through; /* Strikethrough on completed task */
+  }
