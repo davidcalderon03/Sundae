@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt Page</title>
+    <link rel="stylesheet" href="prompt.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="message-container">
+            <p id="greeting-message">Hello <span id="user-name">User</span>, let’s talk about what you want to
+                accomplish. I’m going to ask you a series of questions that will help you get ready to get started.</p>
+        </div>
+        <div class="response-container" id="response-container">
+            <!-- User responses will appear here -->
+        </div>
+        <div class="input-container">
+            <input type="text" id="user-response" placeholder="Enter a response here">
+            <button id="submit-response">↗</button>
+        </div>
+    </div>
+    <script src="prompt.js"></script>
+</body>
+
+</html>
