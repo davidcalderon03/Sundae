@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Comradery - Main</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="css/main.css" />
+		<noscript><link rel="stylesheet" href="css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#" onclick="showNext('nextFriends','nextGroups')">Friends</a></li>
+							<div id="nextFriends" class="friends">
+								<div class="col-6 col-12-xsmall">
+									<input type="text" value="" placeholder="Add Friend" />
+								</div>
+								<br>
+								<section>
+									<div class="table-wrapper">
+										<table>
+											<tbody>
+												<tr>
+													<td>David</td>
+												</tr>
+												<tr>
+													<td>Jacob</td>
+												</tr>
+												<tr>
+													<td>Stephan</td>
+												</tr>
+												<tr>
+													<td>Yash</td>
+												</tr>
+												<tr>
+													<td>Zade</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</section>
+							</div>
+							<li><a href="#" onclick="showNext('nextGroups','nextFriends')">Groups</a></li>
+							<div id="nextGroups" class="groups">
+								<div class="col-6 col-12-xsmall">
+									<input type="text" value="" placeholder="Add Group" />
+								</div>
+								<br>
+								<section>
+									<div class="table-wrapper">
+										<table>
+											<tbody>
+												<tr>
+													<td>Interns</td>
+												</tr>
+												<tr>
+													<td>San Fransico</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</section>
+							</div>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<div id="nextDescription" class="description">
+								<h1>Comradery</h1>
+								<p>Hang out with your friends without the stress of planning. Press the pair up button to begin!</p>
+							</div>
+							<div id="nextSearch" class="search">
+								<h2 style="color:rgba(158, 132, 217, 0.60);" id="replace">searching</h2>
+							</div>
+							<div id="nextFound" class="found">
+								<ul class="actions stacked">
+									<div class="col-12"><span class="image fit"><img src="https://cdn.discordapp.com/attachments/1257065866902638693/1257074520624205875/sausalito.jpg?ex=66831561&is=6681c3e1&hm=9da43e2e9c9fa377b5f75ad2feb61543481b3aa2febed30477e3764272139430&" alt="" id="mainImage"/></span></div>
+									<li><a href="#" class="button small fit" id="address"></a></li>
+								</ul>
+								<h3 id="whotogo"></h3>
+							</div>
+						</div>
+						<div class="inner">
+							<div id="mainButton" class="kahuna">
+								<ul sytle="display: flex; align-items: center; justify-content: center;" class="actions">
+									<li><a href="#" class="button large" id="random" onclick="searchPlace(true)"></a></li>
+								</ul>
+							</div>
+						</div>
+					</section>
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="js/jquery.min.js"></script>
+			<script src="js/jquery.scrollex.min.js"></script>
+			<script src="js/jquery.scrolly.min.js"></script>
+			<script src="js/browser.min.js"></script>
+			<script src="js/breakpoints.min.js"></script>
+			<script src="js/util.js"></script>
+			<script src="js/main.js"></script>
+	</body>
+</html>
